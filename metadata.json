@@ -1,0 +1,9 @@
+
+{
+  "name": "NovaAI - Futuristic AI Workspace",
+  "description": "A high-performance, futuristic AI SaaS platform featuring multi-chat, image generation, and real-time voice chat powered by Gemini.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
