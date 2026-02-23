@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { AppMode, ChatSession, Message } from "./types";
 import { storageService } from "./services/storageService";
-import { apiService } from "./services/apiService";
 import Sidebar from "./components/Sidebar";
 import ChatInterface from "./components/ChatInterface";
 import ImageGenerator from "./components/ImageGenerator";
@@ -134,7 +133,7 @@ const App: React.FC = () => {
       abortControllerRef.current.abort();
       setIsLoading(false);
     }
-  }
+  };
 
   return (
     <div className="flex flex-col md:flex-row h-screen bg-slate-950 text-slate-200 overflow-hidden font-sans overflow-x-hidden">
