@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { AppMode, ChatSession, Message } from "./types";
 import { storageService } from "./services/storageService";
+import { apiService } from "./services/apiService";
 import Sidebar from "./components/Sidebar";
 import ChatInterface from "./components/ChatInterface";
 import ImageGenerator from "./components/ImageGenerator";
